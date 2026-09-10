@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhemily Albuquerque — Portfólio</title>
+  <meta name="description" content="Portfólio pessoal de Jhemily Albuquerque, estudante de Engenharia de Software com foco em Desenvolvimento Front-End.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#topo" aria-label="Página inicial de Jhemily Albuquerque">
+        <span class="logo-mark">JA</span>
+        <span class="logo-text">Jhemily Albuquerque</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menu de navegação">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <ul>
+          <li><span class="tag">&lt;a&gt;</span><a href="#sobre">Sobre</a></li>
+          <li><span class="tag">&lt;a&gt;</span><a href="#habilidades">Habilidades</a></li>
+          <li><span class="tag">&lt;a&gt;</span><a href="#projetos">Projetos</a></li>
+          <li><span class="tag">&lt;a&gt;</span><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="hero" id="topo">
+      <div class="hero-inner">
+        <p class="eyebrow-tag">&lt;h1&gt;</p>
+        <h1>Construindo interfaces com<br>estrutura, clareza e intenção.</h1>
+        <p class="hero-lede">
+          Sou Jhemily, estudante de Engenharia de Software na FAMETRO, dedicada ao
+          Desenvolvimento Front-End. Gosto de pensar cada página como um projeto de
+          arquitetura: primeiro a estrutura semântica, depois o estilo, depois o comportamento.
+        </p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary">Falar comigo</a>
+          <a href="#projetos" class="btn btn-ghost">Ver projetos</a>
+        </div>
+      </div>
+      <div class="hero-diagram" aria-hidden="true">
+        <svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="8" width="304" height="304" rx="4" fill="none" stroke="var(--ink-soft)" stroke-width="1" stroke-dasharray="2 6"/>
+          <rect x="40" y="40" width="240" height="60" rx="2" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.5"/>
+          <text x="60" y="75" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)">&lt;header&gt;</text>
+          <rect x="40" y="112" width="240" height="90" rx="2" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.5"/>
+          <text x="60" y="140" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)">&lt;main&gt;</text>
+          <rect x="60" y="152" width="90" height="36" rx="2" fill="none" stroke="var(--accent)" stroke-width="1.5"/>
+          <rect x="160" y="152" width="100" height="36" rx="2" fill="none" stroke="var(--accent)" stroke-width="1.5"/>
+          <rect x="40" y="214" width="240" height="46" rx="2" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.5"/>
+          <text x="60" y="242" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)">&lt;footer&gt;</text>
+          <circle cx="280" cy="60" r="3" fill="var(--accent)"/>
+          <circle cx="60" cy="235" r="3" fill="var(--accent)"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="section-inner about-grid">
+        <p class="eyebrow-tag">&lt;section id="sobre"&gt;</p>
+
+        <div class="about-portrait" aria-hidden="true">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Avatar ilustrado de Jhemily Albuquerque">
+            <rect x="4" y="4" width="192" height="192" rx="8" fill="var(--ink)"/>
+            <circle cx="100" cy="82" r="38" fill="var(--paper)"/>
+            <path d="M50 168c6-34 34-54 50-54s44 20 50 54" fill="var(--paper)"/>
+            <circle cx="100" cy="82" r="38" fill="none" stroke="var(--accent)" stroke-width="2"/>
+            <path d="M50 168c6-34 34-54 50-54s44 20 50 54" fill="none" stroke="var(--accent)" stroke-width="2"/>
+            <text x="100" y="192" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--paper)">/jhemily</text>
+          </svg>
+        </div>
+
+        <div class="about-content">
+          <h2>Sobre mim</h2>
+          <p>
+            Estou no 5º período de Engenharia de Software na FAMETRO, período noturno,
+            e venho construindo minha base em desenvolvimento front-end: HTML semântico,
+            CSS moderno, Flexbox e Grid, e as primeiras camadas de lógica com JavaScript.
+          </p>
+          <p>
+            Gosto de projetos onde a estrutura da página conta uma história por si só —
+            acredito que um HTML bem organizado é a diferença entre um site que só
+            funciona e um site que é fácil de manter, acessar e evoluir.
+          </p>
+          <dl class="about-facts">
+            <div>
+              <dt>Formação</dt>
+              <dd>Engenharia de Software — FAMETRO</dd>
+            </div>
+            <div>
+              <dt>Período</dt>
+              <dd>5º período, noturno</dd>
+            </div>
+            <div>
+              <dt>Foco atual</dt>
+              <dd>Desenvolvimento Front-End</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="habilidades">
+      <div class="section-inner">
+        <p class="eyebrow-tag">&lt;section id="habilidades"&gt;</p>
+        <h2>Habilidades &amp; conhecimentos</h2>
+        <p class="section-lede">Ferramentas e conceitos que uso para transformar layout em código.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>HTML5 Semântico</h3>
+            <p>Estruturação de páginas com header, main, section, article e footer, pensando em significado, não só em aparência.</p>
+          </article>
+          <article class="card">
+            <h3>CSS3 &amp; Flexbox</h3>
+            <p>Layouts flexíveis e responsivos, variáveis CSS, e organização de estilos por componente.</p>
+          </article>
+          <article class="card">
+            <h3>CSS Grid</h3>
+            <p>Composição de grades bidimensionais para seções mais complexas, como cards e galerias.</p>
+          </article>
+          <article class="card">
+            <h3>Responsividade</h3>
+            <p>Design mobile-first com media queries, testado em diferentes tamanhos de tela e dispositivos.</p>
+          </article>
+          <article class="card">
+            <h3>JavaScript (base)</h3>
+            <p>Interações simples de interface: menus, validações de formulário e pequenas manipulações do DOM.</p>
+          </article>
+          <article class="card">
+            <h3>Git &amp; GitHub</h3>
+            <p>Versionamento de código e publicação de projetos, incluindo GitHub Pages.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-inner">
+        <p class="eyebrow-tag">&lt;section id="projetos"&gt;</p>
+        <h2>Projetos</h2>
+        <p class="section-lede">Trabalhos acadêmicos e pessoais em desenvolvimento.</p>
+
+        <div class="projects-list">
+          <article class="project-row">
+            <div class="project-info">
+              <h3>Este portfólio</h3>
+              <p>Site pessoal construído com HTML5 semântico, CSS3 e Flexbox como atividade prática da disciplina de Desenvolvimento Front-End.</p>
+            </div>
+            <div class="project-tags">
+              <span>HTML5</span><span>CSS3</span><span>Flexbox</span>
+            </div>
+          </article>
+          <article class="project-row">
+            <div class="project-info">
+              <h3>Próximo projeto</h3>
+              <p>Espaço reservado para o seu próximo trabalho — atualize esta seção conforme for publicando novos projetos no GitHub.</p>
+            </div>
+            <div class="project-tags">
+              <span>Em breve</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contato">
+      <div class="section-inner contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow-tag">&lt;section id="contato"&gt;</p>
+          <h2>Vamos conversar</h2>
+          <p>
+            Estou aberta a oportunidades de estágio, projetos em conjunto e trocas
+            sobre front-end. Escolha o canal que preferir.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">E-mail</span>
+              <a href="mailto:jhemilyalbuquerque2015@gmail.com">jhemilyalbuquerque2015@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/jhemilyalbuquerque" target="_blank" rel="noopener">github.com/jhemilyalbuquerque</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/jhemily-albuquerque" target="_blank" rel="noopener">Jhemily Albuquerque</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <p class="eyebrow-tag">&lt;form&gt;</p>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year">2026</span> Jhemily Albuquerque. Todos os direitos reservados.</p>
+      <p class="footer-meta">Portfólio pessoal — Atividade Prática III, Engenharia de Software, FAMETRO.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
